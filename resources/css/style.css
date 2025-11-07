@@ -1,0 +1,59 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 52px;
+    text-align: center;
+}
+
+h2{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 300;
+}
+
+p{
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+
+a {
+    color: aquamarine;
+}
+
+.Hero-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+
+.travel-guide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+footer {
+ text-align: right;
+ font-weight: 600;
+ color: gray;
+ margin-top: 20px;
+ padding-bottom: 20px;
+}
+
